@@ -97,7 +97,7 @@ class ReactYoutube extends Component {
                 urlEnding += "sd";
                 break;
             default:
-                urlEnding += "maxres";
+                urlEnding += "";
         }
 
         switch (props.thumbnailId) {

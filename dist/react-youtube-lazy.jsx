@@ -205,7 +205,7 @@ var ReactYoutube = function (_Component) {
           urlEnding += "sd";
           break;
         default:
-          urlEnding += "maxres";
+          urlEnding += "";
       }
 
       switch (props.thumbnailId) {
